@@ -1,0 +1,4 @@
+2021-06-21 22:16:27.512 [main] ERROR Main - Выброшено следующее исключение: 
+java.lang.NullPointerException: null
+	at Main.printRoute(Main.java:60) ~[classes/:?]
+	at Main.main(Main.java:42) [classes/:?]
