@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SecondForm">
+  <grid id="27dc6" binding="secondPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="8dfb" binding="fullNamePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <preferredSize width="455" height="200"/>
+        </properties>
+        <border type="empty" title="Введите полное ФИО" title-position="2">
+          <font name="JetBrains Mono" size="18" style="3"/>
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <component id="724cf" class="javax.swing.JLabel" binding="fullNameLabel">
+            <constraints/>
+            <properties>
+              <text value="ФИО"/>
+            </properties>
+          </component>
+          <component id="bb255" class="javax.swing.JTextField" binding="fullNameField">
+            <constraints/>
+            <properties>
+              <background color="-1"/>
+              <columns value="30"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="57b16" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a5586" class="javax.swing.JButton" binding="expandButton">
+            <constraints/>
+            <properties>
+              <text value="Expand"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
